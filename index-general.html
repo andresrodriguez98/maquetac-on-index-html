@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index general</title>
+
+  </head>
+  <body>
+    <h1>titular de la pagina</h1>
+    <h2>tiutlar de la pagina</h2>
+    <h3>tiutlar de la pagina</h3>
+    <h4>tiutlar de la pagina</h4>
+    <h5>tiutlar de la pagina</h5>
+    <h6>tiutlar de la pagina</h6>
+
+    <p>
+      <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <i>Fugiat rem beatae quasi tempora.</i>Doloribus, quisquam placeat,
+        veniam necessitatibus quibusdam odit iste ad incidunt facere iusto
+        maxime exercitationem praesentium. <sub>Aut, accusantium.</sub>
+      </b>
+
+      <hr>
+    </p>
+    
+    <p>
+      <strong
+        >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <em>Fugiat rem beatae quasi tempora.</em>
+        <sup>Doloribus, quisquam placeat, veniam</sup>necessitatibus quibusdam
+        odit iste ad incidunt facere iusto maxime exercitationem
+        <mark>praesentium.</mark> Aut, accusantium.</strong
+      >
+    </p>
+
+    <hr>
+
+    <p>
+     <b>
+        <small
+        >Lorem ipsum dolor sit amet consectetur,
+        <del>adipisicing elit.</del> Fugiat rem beatae quasi tempora.Doloribus,
+        quisquam placeat, <ins>veniam necessitatibus</ins> quibusdam odit iste
+        ad incidunt facere iusto maxime exercitationem praesentium. Aut,
+        accusantium.</small
+      >
+     </b> 
+    </p>
+
+    <hr>
+
+    <!--falta otro parrafo-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa distinctio
+      dolor laudantium dicta natus eligendi perspiciatis nulla fuga debitis
+      saepe ut alias enim necessitatibus eius, nesciunt possimus iusto incidunt
+      molestias?
+    </p>
+
+    <hr>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa distinctio
+      dolor laudantium dicta natus eligendi perspiciatis nulla fuga debitis
+      saepe ut alias enim necessitatibus eius, nesciunt possimus iusto incidunt
+      molestias?
+    </p>
+
+     <a href="contacto.html">contacto
+        <p>hola soy una imagen del cielo</p>
+        <img src="./imagenes/cielo.jpg" alt="width 80 px">
+        <img src="./imagenes/arbol.jpg" alt="width 100px">
+     </a>
+
+     
+     
+     <table style="width: 100%;">
+        <tr>
+            <th>nombre</th>
+            <th>apellidos</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>chamorro</td>
+            <td>felipe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>chamorro</td>
+            <td>felipe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>chamorro</td>
+            <td>felipe@gmail.com</td>
+        </tr>
+     </table>
+
+     <hr>
+     <hr>
+
+     <table>
+        <tr>
+            <th>nombre</th>
+            <th>apellidos</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td colspan="2">Andres chamorro</td>
+            <td>felipe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>chamorro</td>
+            <td rowspan="2">felipe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Andres</td>
+            <td>chamorro</td>
+        </tr>
+     </table>
+
+      <ul>
+        <li>tomates</li>
+        <li>cebolla</li>
+        <li>huevos</li>
+        <li>aceite</li>
+        <li>arroz</li>
+        <li>leche</li>
+        <ul>
+            <li>fruta</li>
+            <li>manzana</li>
+            <li>pera</li>
+        </ul>
+      </ul>
+
+      <ol>
+        <li>papa</li>
+        <li>azucar</li>
+        <li>pan</li>
+        <li>sal</li>
+        <li>frijol</li>
+        <li>chocolate</li>
+      </ol>
+
+      <ol>
+        <ol>
+        <li>fresa</li>
+        <li>maracuya</li>
+      </ol>
+      </ol>
+
+      <ol start="20">
+        <li>limon</li>
+        <li>naranja</li>
+      </ol>
+
+      <form>
+        <label for="nombre">email</label>
+
+        <input type="text" id="nombre" name=" name">
+
+        <label for="color">elige un color</label>
+
+        <select id="color" name="color">
+            <option selected>verde</option>
+            <option>azul</option>
+            <option>rojo</option>
+            <option>amarilo</option>
+        </select>
+
+        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+
+        <button type="button" onclick="alert ( 'hola ')">boton</button>
+
+        <button type="submit">boton</button>
+
+        <input list="colores">
+        <datalist id="colores">
+            <option>verde</option>
+            <option>azul</option>
+            <option>rojo</option>
+            <option>amarilo</option>
+            <option>negro</option>
+            <option>blanco</option>
+        </datalist>
+      </form>
+      <hr>
+      <hr>
+
+      <form>
+        <label for="iname">nombres:</label>
+        <input id="iname" type="text" name="name">
+
+        <label for="isurname">apellidos:</label>
+        <input id="isurname" type="text" name="surname">
+
+        <label for="iemail">email:</label>
+        <input id="iemail" type="email" name="email">
+
+        <label for="ipass">contrasea:</label>
+        <input id="ipass" type="password" name="pass">
+
+        <input type="submit" value="enviar">
+
+        <input type="reset" value="resetear">
+      </form>
+
+      <hr>
+      <hr>
+      <hr>
+
+      <form>
+        <input type="checkbox" name="color" value="red">
+        <label for="red">rojo</label>
+        <br>
+
+        <input id="green" type="checkbox" name="color" value="green">
+        <label for="red">verde</label>
+        <br>
+
+        <input id="blue" type="checkbox" name="color" value="blue">
+        <label for="red">azul</label>
+        <br>
+      </form>
+
+      <form>
+        <input type="color" name="color">
+
+        <input type="date" name="date">
+
+        <input type="datetime-local" name="date">
+
+        <input type="file" name="file">
+
+        <input type="month" name="mes">
+
+        <input type="number" name="num">
+
+        <input type="range" name="num" min="1" max="100">
+
+        <input type="search" name="search">
+
+        <input type="tel" name="phone">
+
+        <input type="time" name="time">
+        
+        <input type="url" name="url">
+
+        <input type="week" name="week">
+        
+      </form>
+      <br>
+      <br>
+
+      <video width="200" height="250"controls>
+        <source src="./videos/italia-venecia.mp4" type="vidio/mp4">
+        <source src="./videos/italy.mp4" type="video/ogg">
+      </video>
+
+      <br>
+      <br>
+
+      <audio controls>
+        <source src="../audios/compra-chorizos.mp3.opus"type="audio/mpeg">
+        <source src="../audios/mañana-compra-chorizos.mp3.opus"type="audio/ogg">
+      </audio>
+
+      <iframe width="200" height="250" src="https://www.youtube.com/embed/jLgcah7bpl4?si=GYd0Fi3l64MNwLAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </body>
+</html>

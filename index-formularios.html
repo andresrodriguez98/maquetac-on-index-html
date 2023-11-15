@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularios</title>
+  </head>
+  <body>
+    <form>
+      <label for="nombre">email</label>
+
+      <input type="text" id="nombre" name=" name" />
+
+      <label for="color">elige un color</label>
+
+      <select id="color" name="color">
+        <option selected>verde</option>
+        <option>azul</option>
+        <option>rojo</option>
+        <option>amarilo</option>
+      </select>
+
+      <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+
+      <button type="button" onclick="alert ( 'hola ')">boton</button>
+
+      <button type="submit">boton</button>
+
+      <input list="colores" />
+      <datalist id="colores">
+        <option>verde</option>
+        <option>azul</option>
+        <option>rojo</option>
+        <option>amarilo</option>
+        <option>negro</option>
+        <option>blanco</option>
+      </datalist>
+    </form>
+    <hr />
+    <hr />
+
+    <form>
+      <label for="iname">nombres:</label>
+      <input id="iname" type="text" name="name" />
+
+      <label for="isurname">apellidos:</label>
+      <input id="isurname" type="text" name="surname" />
+
+      <label for="iemail">email:</label>
+      <input id="iemail" type="email" name="email" />
+
+      <label for="ipass">contrasea:</label>
+      <input id="ipass" type="password" name="pass" />
+
+      <input type="submit" value="enviar" />
+
+      <input type="reset" value="resetear" />
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <form>
+      <input type="checkbox" name="color" value="red" />
+      <label for="red">rojo</label>
+      <br />
+
+      <input id="green" type="checkbox" name="color" value="green" />
+      <label for="red">verde</label>
+      <br />
+
+      <input id="blue" type="checkbox" name="color" value="blue" />
+      <label for="red">azul</label>
+      <br />
+    </form>
+
+    <form>
+      <input type="color" name="color" />
+
+      <input type="date" name="date" />
+
+      <input type="datetime-local" name="date" />
+
+      <input type="file" name="file" />
+
+      <input type="month" name="mes" />
+
+      <input type="number" name="num" />
+
+      <input type="range" name="num" min="1" max="100" />
+
+      <input type="search" name="search" />
+
+      <input type="tel" name="phone" />
+
+      <input type="time" name="time" />
+
+      <input type="url" name="url" />
+
+      <input type="week" name="week" />
+    </form>
+  </body>
+</html>
